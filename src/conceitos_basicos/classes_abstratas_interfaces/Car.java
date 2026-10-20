@@ -1,6 +1,6 @@
 package conceitos_basicos.classes_abstratas_interfaces;
 
-public class Car extends Veiculo {
+public class Car extends Vehicle {
     private double valor;
 
     public Car(String placa, double valor) {

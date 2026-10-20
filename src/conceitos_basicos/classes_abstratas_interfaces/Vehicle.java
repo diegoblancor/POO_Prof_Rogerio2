@@ -10,7 +10,7 @@ public abstract class Vehicle {
     public abstract double calcularIPVA();
 
     public String descrever() {
-        return "Veiculo com placa: " + this.placa;
+        return "Veiculo placa: " + this.placa;
     }
 
     public String getPlaca() {

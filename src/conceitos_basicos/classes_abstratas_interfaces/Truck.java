@@ -1,6 +1,6 @@
 package conceitos_basicos.classes_abstratas_interfaces;
 
-public class Truck extends Veiculo implements Tributavel {
+public class Truck extends Vehicle implements Taxable {
 
     public Truck(String placa) {
         super(placa);
